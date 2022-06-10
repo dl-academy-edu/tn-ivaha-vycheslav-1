@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/common.css">
 </head>
 
 <body>
@@ -13,7 +20,7 @@
             <img src="img/DLK.png" alt="">
         </a>
         <nav>
-            <ul>
+            <ul class="undotted uppercase">
                 <li>
                     <a href="blog.html">Blog</a>
                 </li>
@@ -30,31 +37,31 @@
     </header>
 
     <section>
-        <h1>Category Products</h1>
+        <h1 class="uppercase">Category Products</h1>
         <a href="index.html">Home</a>
         <a href="#">Catalog</a>
-        <ul>
+        <ul class="undotted uppercase">
             <li>
-                <a href="#">APPAREL KIDS</a>
+                <a href="#">Apparel kids</a>
             </li>
             <li>
-                <a href="#">HOLIDAY SHOP</a>
+                <a href="#">Holiday shop</a>
             </li>
             <li>
-                <a href="#">TOYS</a>
+                <a href="toys.html">Toys</a>
             </li>
             <li>
-                <a href="#">ACCESSORIES</a>
+                <a href="#">Accessories</a>
             </li>
             <li>
-                <a href="#">SALE</a>
+                <a href="#">Sale</a>
             </li>
             <li>
-                <a href="#">APPAREL ADULTS</a>
+                <a href="#">Apparel adults</a>
             </li>
         </ul>
         <div>
-            <h2>Product Description</h2>
+            <h2 class="uppercase">Product Description</h2>
             <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can
                 even bathe her, just like a little sister.</p>
             <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be
@@ -65,10 +72,10 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="navigation">
-            <h3>Navigation</h3>
-            <ul>
+            <span class="section_footer">Navigation</span>
+            <ul class="undotted">
                 <li>
                     <a href="#">About Us</a>
                 </li>
@@ -91,8 +98,8 @@
         </div>
 
         <div class="information">
-            <h3>Customer Information</h3>
-            <ul>
+            <span class="section_footer">Customer Information</span>
+            <ul class="undotted">
                 <li>
                     <a href="#">Contact Us</a>
                 </li>
@@ -115,13 +122,13 @@
         </div>
 
         <div class="connect">
-            <h3>Connect</h3>
+            <span class="section_footer">Connect</span>
             <form>
                 <label for="Email_input">Email</label>
                 <input type="email" id="Email_input">
-                <button type="submit">Join</button>
+                <button type="submit" class="button_primary">Join</button>
             </form>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">
                         <img src="img/Facebook.svg" alt="">
@@ -150,7 +157,7 @@
         </div>
         <div class="finish">
             <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            <p>Web Design — Direct Line Development</p>
+            <p class="section_footer">Web Design — Direct Line Development</p>
         </div>
     </footer>
 </body>

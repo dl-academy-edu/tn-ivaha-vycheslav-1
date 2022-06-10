@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/common.css">
 </head>
 
 <body>
@@ -13,7 +20,7 @@
             <img src="img/DLK.png" alt="">
         </a>
         <nav>
-            <ul>
+            <ul class="undotted uppercase">
                 <li>
                     <a href="blog.html">Blog</a>
                 </li>
@@ -31,10 +38,10 @@
 
     <main>
         <section>
-            <h1>Blog</h1>
+            <h1 class="uppercase">Blog</h1>
             <a href="index.html">Home</a>
             <a href="#"> Blog</a>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">
                         <p>23rd August 2018</p>
@@ -90,7 +97,7 @@
     </main>
 
     <div class="pages">
-        <ul>
+        <ul class="undotted">
             <li>
                 <button><img src="img/Vectorleft.svg" alt=""></button>
             </li>
@@ -112,15 +119,15 @@
         </ul>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="navigation">
-            <h3>Navigation</h3>
-            <ul>
+            <span class="section_footer">Navigation</span>
+            <ul class="undotted">
                 <li>
                     <a href="#">About Us</a>
                 </li>
                 <li>
-                    <a href="blog.html">Blog</a>
+                    <a href="#">Blog</a>
                 </li>
                 <li>
                     <a href="#">Design Services</a>
@@ -138,10 +145,10 @@
         </div>
 
         <div class="information">
-            <h3>Customer Information</h3>
-            <ul>
+            <span class="section_footer">Customer Information</span>
+            <ul class="undotted">
                 <li>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="#">Contact Us</a>
                 </li>
                 <li>
                     <a href="#">Sale Exclusions</a>
@@ -162,13 +169,13 @@
         </div>
 
         <div class="connect">
-            <h3>Connect</h3>
+            <span class="section_footer">Connect</span>
             <form>
                 <label for="Email_input">Email</label>
                 <input type="email" id="Email_input">
-                <button type="submit">Join</button>
+                <button type="submit" class="button_primary">Join</button>
             </form>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">
                         <img src="img/Facebook.svg" alt="">
@@ -197,7 +204,7 @@
         </div>
         <div class="finish">
             <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            <p>Web Design — Direct Line Development</p>
+            <p class="section_footer">Web Design — Direct Line Development</p>
         </div>
     </footer>
 

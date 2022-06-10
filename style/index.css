@@ -1,0 +1,39 @@
+.category_list li:nth-child(1) {
+    background: #DBE4DB;
+}
+
+.category_list li:nth-child(2) {
+    background: #EADDD3;
+}
+
+.category_list li:nth-child(3) {
+    background: #F8F2DA;
+}
+
+.category_list li:nth-child(4) {
+    background: #D5D4E1;
+}
+
+.button {
+    background: #70BBDC33;
+}
+
+.about_us {
+    background: #E1F0F7;
+}
+
+.contacts {
+    background: #E1F0F7;
+}
+
+.banner {
+    background: #EEE4DB;
+}
+
+.banner .down_banner {
+    background: #C29974;
+}
+
+.vector_color {
+    background: #70BBDC33;
+}
