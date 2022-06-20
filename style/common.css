@@ -33,18 +33,18 @@ body {
 }
 
 .header_list a {
-    color: black;
+    color: #1E0606;
     margin-right: 20px;
 }
 
 .header button {
     margin-right: 23px;
-    background: white;
+    background: #FFFFFF;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1E0606;
     display: block;
 
 }
@@ -61,10 +61,12 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    display: block;
+    display:inline-block;
     border: none;
     cursor: pointer;
+    text-transform: uppercase;
     padding: 9px 22px
+    
 }
 
 .rating {
@@ -78,8 +80,6 @@ a {
 
 .footer {
     background: #434343;
-    height: 555px;
-    width: 1400px;
 }
 
 .footer_colum {

@@ -22,31 +22,33 @@
     height: 270px;
 }
 
+.banner {
+    background: url(../img/monstr.png) no-repeat right #EEE4DB;
+    display: block;
+    width: 1180px;
+}
+
+
+.down_banner {
+    background: #C29974;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 11px
+}
 
 .button {
     background: #70BBDC33;
+    display: inline-block;
 }
 
-.button_more {
-    display: block;
+.delivery_colum a {
     width: 149px;
-    height: 40px;
-    left: 710px;
-    top: 1705px;
-    text-transform: uppercase;
 }
 
-.button_buynow {
-    width: 123px;
-    height: 40px;
-    left: 140px;
-    top: 2230px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    text-transform: uppercase;
-    margin-left: 30px;
-}
 
 .banner_title {
     font-weight: 700;
@@ -66,12 +68,26 @@
 
 .about_us {
     background: #E1F0F7;
-    height: 228px;
     width: 543px;
-    left: 110px;
-    top: 2069px;
-    border-radius: 0px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 110px;
+}
+
+.about_us h3 {
+    margin-top: -5px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 5px;
+    text-transform: uppercase;
+    color: #1E0606;
+    font-family: 'Montserrat';
+}
+
+.about_us a {
+    margin-left: 30px;
 }
 
 .about_us p {
@@ -87,38 +103,30 @@
 
 .contacts {
     background: #E1F0F7;
-    height: 209px;
     width: 543px;
-    left: 710px;
-    top: 2069px;
-    border-radius: 0px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.contacts h3 {
+    margin-top: -25px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
 }
 
 .contacts p {
     width: 90%;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: -5px;
     margin-bottom: 30px;
 }
 
-.banner {
-    background: url(../img/monstr.png) no-repeat right #EEE4DB;
-    display: block;
-    width: 1180px;
-}
-
-
-.down_banner {
-    background: #C29974;
-    color: #FFFFFF;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    padding: 11px
-}
 
 .category_list {
     display: flex;
@@ -126,7 +134,7 @@
     padding: 0px;
 }
 
-.apparel_kids {
+.category_list_one {
     margin: 103px 103px 77px 73px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -139,7 +147,7 @@
     display: flex;
 }
 
-.holiday_shop {
+.category_list_two {
     margin: 103px 103px 77px 73px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -152,7 +160,7 @@
     display: flex;
 }
 
-.toys {
+.category_list_three {
     margin: 120px 103px 77px 106px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -165,7 +173,7 @@
     display: flex;
 }
 
-.accessories {
+.category_list_four {
     margin: 115px 103px 77px 44px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -195,6 +203,7 @@
     margin: 2px;
     width: 37px;
     height: 37px;
+    display: inline-block;
 }
 
 .info {
@@ -202,27 +211,6 @@
     justify-content: space-between
 }
 
-.info_h3_life {
-    margin-top: -5px;
-    margin-left: 30px;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 5px;
-    text-transform: uppercase;
-    color: #1E0606;
-    font-family: 'Montserrat';
-}
-
-.info_h3_contacts {
-    margin-top: -25px;
-    margin-left: 30px;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 46px;
-    text-transform: uppercase;
-    color: #1E0606;
-}
 
 .delivery_list {
     display: flex;
@@ -251,7 +239,7 @@
 }
 
 .awards_h2 {
-    display:none
+    display: none
 }
 
 .awards_list {
@@ -305,7 +293,6 @@
 }
 
 
-
 .fat {
     font-weight: 700;
     font-size: 14px;
@@ -313,5 +300,5 @@
 }
 
 .footer {
-    margin-top: 170px
+    margin-top: 50px
 }
