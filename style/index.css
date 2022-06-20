@@ -1,39 +1,317 @@
 .category_list li:nth-child(1) {
-    background: #DBE4DB;
+    background: url(../img/category1.jpg);
+    width: 280px;
+    height: 270px;
 }
 
 .category_list li:nth-child(2) {
-    background: #EADDD3;
+    background: url(../img/category2.png) no-repeat center #EADDD3;
+    width: 280px;
+    height: 270px;
 }
 
 .category_list li:nth-child(3) {
-    background: #F8F2DA;
+    background: url(../img/category3.png) no-repeat center #F8F2DA;
+    width: 280px;
+    height: 270px;
 }
 
 .category_list li:nth-child(4) {
-    background: #D5D4E1;
+    background: url(../img/category4.png) no-repeat center #D5D4E1;
+    width: 280px;
+    height: 270px;
 }
+
 
 .button {
     background: #70BBDC33;
 }
 
+.button_more {
+    display: block;
+    width: 149px;
+    height: 40px;
+    left: 710px;
+    top: 1705px;
+    text-transform: uppercase;
+}
+
+.button_buynow {
+    width: 123px;
+    height: 40px;
+    left: 140px;
+    top: 2230px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    width: 60%;
+}
+
+.banner_info {
+    padding: 89px 133px 170px;
+}
+
+.border_none {
+    border: none;
+}
+
 .about_us {
     background: #E1F0F7;
+    height: 228px;
+    width: 543px;
+    left: 110px;
+    top: 2069px;
+    border-radius: 0px;
+    display: block;
+}
+
+.about_us p {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.about_us span {
+    margin-left: 30px;
 }
 
 .contacts {
     background: #E1F0F7;
+    height: 209px;
+    width: 543px;
+    left: 710px;
+    top: 2069px;
+    border-radius: 0px;
+    display: block;
+}
+
+.contacts p {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .banner {
-    background: #EEE4DB;
+    background: url(../img/monstr.png) no-repeat right #EEE4DB;
+    display: block;
+    width: 1180px;
 }
 
-.banner .down_banner {
+
+.down_banner {
     background: #C29974;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 11px
+}
+
+.category_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.apparel_kids {
+    margin: 103px 103px 77px 73px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.holiday_shop {
+    margin: 103px 103px 77px 73px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.toys {
+    margin: 120px 103px 77px 106px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.accessories {
+    margin: 115px 103px 77px 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.category_products h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 .vector_color {
     background: #70BBDC33;
+    margin: 2px;
+    width: 37px;
+    height: 37px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between
+}
+
+.info_h3_life {
+    margin-top: -5px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 5px;
+    text-transform: uppercase;
+    color: #1E0606;
+    font-family: 'Montserrat';
+}
+
+.info_h3_contacts {
+    margin-top: -25px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.delivery_list {
+    display: flex;
+}
+
+.delivery_colum {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 472px;
+    margin-left: 120px;
+}
+
+.delivery_colum p {
+    width: 90%;
+}
+
+.delivery_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.awards_h2 {
+    display:none
+}
+
+.awards_list {
+    display: flex;
+    margin-top: 91px;
+    margin-bottom: 116px;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+.social {
+    display: flex;
+}
+
+.arrow_block {
+    display: flex;
+    margin-bottom: 94px;
+    margin-top: 15px;
+    align-items: center
+}
+
+.arrow_block p {
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+.crimson400italic {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.crimson700italic {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+
+}
+
+.map {
+    margin-left: 30px;
+    display: block;
+}
+
+
+
+.fat {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.footer {
+    margin-top: 170px
 }

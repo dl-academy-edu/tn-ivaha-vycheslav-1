@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -6,13 +10,49 @@ body {
     color: #1E0606;
 }
 
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 33px auto;
+}
+
+.header_menu {
+    margin: 0 auto 0 25px;
+}
+
+.header_list {
+    align-items: center;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+}
+
+.header_list a {
+    color: black;
+    margin-right: 20px;
+}
+
+.header button {
+    margin-right: 23px;
+    background: white;
+}
+
 a {
     text-decoration: none;
     color: black;
+    display: block;
+
 }
 
 .undotted {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .button_primary {
@@ -21,14 +61,62 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 9px 22px
+}
+
+.rating {
+    display: flex;
+}
+
+.rating ul {
+    display: flex;
+    margin: 0px 55px 0 25px;
 }
 
 .footer {
     background: #434343;
+    height: 555px;
+    width: 1400px;
 }
 
-.section_footer {
+.footer_colum {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px
+}
+
+.footer_company {
+    display: flex;
+    align-items: center;
+    margin: 55px 70px 100px 95px;
+    justify-content: space-between;
+}
+
+.footer span {
     color: #AAAAAA;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.footer_colum div {
+    margin: 100px 0 0
+}
+
+.web a {
+    color: #A2A2A2;
+}
+
+.copyright p {
+    color: white;
+}
+
+.form_email {
+    display: flex;
 }
 
 .uppercase {
