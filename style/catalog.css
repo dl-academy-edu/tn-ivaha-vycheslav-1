@@ -1,0 +1,85 @@
+.catalog_title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.catalog {
+    align-content: flex-start;
+}
+
+.catalog_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog_list li {
+    margin-right: 20px;
+    margin-bottom: 23px;
+}
+
+.catalog_list li:nth-child(1) {
+    background: url(../img/category1.jpg);
+    width: 280px;
+    height: 270px;
+    
+}
+
+.catalog_list li:nth-child(2) {
+    background: url(../img/category2.png) no-repeat center #EADDD3;
+    width: 280px;
+    height: 270px;
+}
+
+.catalog_list li:nth-child(3) {
+    background: url(../img/category3.png) no-repeat center #F8F2DA;
+    width: 280px;
+    height: 270px
+}
+
+.catalog_list li:nth-child(4) {
+    background: url(../img/category4.png) no-repeat center #D5D4E1;
+    width: 280px;
+    height: 270px;
+    margin-left: 210px;
+}
+
+.catalog_list li:nth-child(5) {
+    background: url(../img/pinkbrid.jpg);
+    width: 280px;
+    height: 270px;
+}
+
+.catalog_list li:nth-child(6) {
+    background: url(../img/pinkdress.jpg);
+    width: 280px;
+    height: 270px;
+}
+
+.catalog_list a {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 115px;
+    margin-left: 45px;
+    width: 65%;
+    flex-direction: column;
+}
+
+.product {
+    width: 56%;
+    width: 56%;
+    margin-left: 210px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
