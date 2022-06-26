@@ -1,0 +1,46 @@
+.blog_title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin: 60px 0 22px;
+
+}
+
+.blog_wrapper {
+    margin: 50px 0 30px;
+}
+
+.blog_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog_list li {
+    margin-right: 20px;
+    width: 380px;
+    margin-bottom: 40px;
+}
+
+.blog_list p {
+    color: #818181;
+}
+
+.blog_list h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+
+
+.blog_list li:nth-child(3n) {
+    margin-right: -10px;
+}
+
+.blog_list span {
+    display: block;
+    width: 90%;
+}
