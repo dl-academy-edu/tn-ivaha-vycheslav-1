@@ -22,7 +22,7 @@ body {
 }
 
 .header_menu {
-    margin: 0 auto 0 25px;
+    margin: 0px auto 0 60px;
 }
 
 .header_list {
@@ -38,7 +38,7 @@ body {
 }
 
 .header button {
-    margin-right: 23px;
+    margin-right: 19px;
     background: #FFFFFF;
 }
 
@@ -51,10 +51,11 @@ body {
     line-height: 26px;
     color: #1E0606;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .bread_crumbs a {
-    margin-right: 20px;
+    margin-right: 48px;
 }
 
 img {
@@ -102,11 +103,11 @@ a {
 
 .rating ul {
     display: flex;
-    margin: 0px 55px 0 25px;
+    margin: 0px 55px 0 30px;
 }
 
 .star li {
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .footer {
@@ -115,18 +116,18 @@ a {
 
 .footer_colum {
     display: flex;
-    padding: 100px 0 15px;
+    padding: 100px 0 35px;
     justify-content: space-between;
 }
 
 .footer_colum div {
-    width: 320px;
+    width: 375px;
 }
 
 .footer_company {
     display: flex;
     justify-content: space-between;
-    padding: 23px 15px 100px 0;
+    padding: 8px 15px 100px 0;
     align-items: center;
     border-top: solid 1px;
     border-color: #666666;
@@ -150,15 +151,26 @@ a {
 }
 
 .navigation_list li {
-    margin: 23px 0 28px;
+    margin: 25px 3px -9px;
 }
 
 .information_list li {
-    margin: 23px 0 28px;
+    margin: 26px 0px -10px;
+}
+
+
+.form_email input {
+    background: #666666;
+    padding: 5px 39px 5px;
+}
+
+.web {
+    margin-right: 65px;
 }
 
 .web a {
     color: #A2A2A2;
+
 }
 
 .copyright p {
@@ -193,7 +205,7 @@ a {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 26px;
     color: #1E0606;
 }
@@ -342,4 +354,7 @@ fieldset {
 
 }
 
-
+.disabled {
+    cursor: context-menu;
+    opacity: .5;
+}

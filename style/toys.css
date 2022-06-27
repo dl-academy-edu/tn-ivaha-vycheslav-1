@@ -76,5 +76,27 @@
     margin-top: 15px;
 }
 
+.bread_crumbs::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background:url(../img/bread_crumbsvector.svg);
+    width: 8px;
+    height: 12px;
+    top: 7px;
+    left: 62px;
+}
+
+.bread_crumbs::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background:url(../img/bread_crumbsvector.svg);
+    width: 8px;
+    height: 12px;
+    top: 7px;
+    left: 168px;
+}
+
 
 

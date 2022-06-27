@@ -44,3 +44,14 @@
     display: block;
     width: 90%;
 }
+
+.bread_crumbs::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background:url(../img/bread_crumbsvector.svg);
+    width: 8px;
+    height: 12px;
+    top: 7px;
+    left: 62px;
+}

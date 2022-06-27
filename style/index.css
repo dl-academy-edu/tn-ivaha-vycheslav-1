@@ -30,11 +30,16 @@
 
 .banner_info {
     background: #EEE4DB;
-    padding: 55px 135px 68px;
-    margin-top: 90px;
+    padding: 27px 135px 98px;
+    margin-top: 96px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.banner_info p {
+    margin-top: -10px;
+    font-size: 20px;
 }
 
 .banner_title {
@@ -43,15 +48,17 @@
     line-height: 110%;
     color: #1E0606;
     width: 60%;
+    margin-top: 65px;
+    letter-spacing: 2px;
 }
 
 .banner_number {
     position: absolute;
-    margin: -15px -110px;
+    margin: 17px -105px;
 }
 
 .banner_button li {
-    margin: 10px 0 -15px;
+    margin: 20px 1px -28px;
 }
 
 .banner_number h2 {
@@ -73,8 +80,8 @@
 
 .banner img {
     position: absolute;
-    right: 100px;
-    top: 0px;
+    right: 96px;
+    top: 7px;
 }
 
 
@@ -86,6 +93,7 @@
     font-size: 12px;
     line-height: 16px;
     text-align: center;
+    margin-top: -9px;
 }
 
 .button {
@@ -108,7 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 110px;
+    margin-bottom: 105px;
 }
 
 .about_us h3 {
@@ -123,18 +131,20 @@
 }
 
 .about_us a {
-    margin-left: 30px;
+    margin-left: 33px;
+    margin-top: 7px;
 }
 
 .about_us p {
-    width: 90%;
-    margin-left: 30px;
-    margin-top: 20px;
+    width: 89%;
+    margin-left: 33px;
+    margin-top: 14px;
     margin-bottom: 15px;
 }
 
 .about_us span {
-    margin-left: 30px;
+    margin-left: 34px;
+    margin-top: -6px;
 }
 
 .contacts {
@@ -142,6 +152,7 @@
     display: flex;
     flex-direction: column;
     align-items: self-start;
+    margin-right: 33px;
 }
 
 .contacts_list {
@@ -161,9 +172,9 @@
 }
 
 .contacts p {
-    width: 90%;
+    width: 89%;
     margin-left: 30px;
-    margin-top: -5px;
+    margin-top: -20px;
     margin-bottom: 100px;
 }
 
@@ -222,6 +233,7 @@
 .delivery_list {
     display: flex;
     align-items: flex-start;
+    margin-top: -20px;
 }
 
 .delivery_colum {
@@ -234,7 +246,7 @@
 }
 
 .delivery_button li {
-    margin: 0 0 22px;
+    margin: 6px 5px 25px;
 }
 
 .delivery_colum::after {
@@ -251,6 +263,12 @@
 
 .delivery_colum p {
     width: 90%;
+    margin-top: 13px;
+    margin-bottom: -3px;
+}
+
+.delivery_colum .button_primary {
+    margin-top: 35px;
 }
 
 .delivery_title {

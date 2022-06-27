@@ -37,3 +37,14 @@
     padding: 22px 40px 42px 40px;
 
 }
+
+.bread_crumbs::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background:url(../img/bread_crumbsvector.svg);
+    width: 8px;
+    height: 12px;
+    top: 7px;
+    left: 62px;
+}
