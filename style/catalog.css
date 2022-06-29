@@ -1,13 +1,15 @@
 .catalog_title {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 38px;
+    line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
-    margin-top: 60px;
+    margin-top: 63px;
+    letter-spacing: 2px;
     margin-bottom: 15px;
 }
+
 
 .catalog {
     align-content: flex-start;
@@ -27,7 +29,7 @@
     background: url(../img/category1.jpg);
     width: 280px;
     height: 270px;
-    
+
 }
 
 .catalog_list li:nth-child(2) {
@@ -46,7 +48,7 @@
     background: url(../img/category4.png) no-repeat center #D5D4E1;
     width: 280px;
     height: 270px;
-    margin-left: 210px;
+    margin-left: 202px;
 }
 
 .catalog_list li:nth-child(5) {
@@ -77,20 +79,20 @@
 }
 
 .product {
-    width: 56%;
-    width: 56%;
-    margin-left: 210px;
-    margin-top: 55px;
+    width: 57%;
+    margin-left: 202px;
+    margin-top: -22px;
     margin-bottom: 55px;
 }
 
-.bread_crumbs::before {
-    content: '';
-    position: absolute;
-    display: block;
-    background:url(../img/bread_crumbsvector.svg);
-    width: 8px;
-    height: 12px;
-    top: 7px;
-    left: 62px;
+.product_title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 58px;
+    letter-spacing: 0px;
+    margin-bottom: 21px;
 }

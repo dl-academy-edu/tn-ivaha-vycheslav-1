@@ -331,6 +331,19 @@
     display: none;
 }
 
+.popup_open {
+    display: flex;
+}
+
+.popup_close {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    cursor: pointer;
+}
+
 .form_contact {
     width: 680px;
     background: #E5EAF8;

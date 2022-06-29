@@ -14,12 +14,14 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 60px;
-    padding-top: 42px;
+    padding-top: 26px;
     padding-bottom: 27px;
 }
 
 .toys_choice button {
     display: inline-block;
+    margin-top: 52px;
+    margin-right: 82px;
 }
 
 .toys_choice h2 {
@@ -31,6 +33,15 @@
     margin-bottom: 15px;
 }
 
+.toys_cost {
+    margin-right: 210px;
+}
+
+
+.toys_delivery {
+    margin-left: 60px;
+    margin-right: 18px;
+}
 
 .color_list li {
     margin-bottom: 15px;
@@ -49,6 +60,12 @@
 
 }
 
+.amount_list li {
+    width: 80px;
+    height: 35px;
+    background: #FFFFFF;
+}
+
 .products_list {
     display: flex;
     flex-wrap: wrap;
@@ -57,6 +74,7 @@
 
 .products_list li {
     margin-right: 20px;
+    margin-bottom: 22px;
 }
 
 .products_list a {
@@ -64,6 +82,11 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.products_list span {
+    margin-top: 24px;
+    margin-left: 15px;
 }
 
 .price {
@@ -75,28 +98,4 @@
     color: #1E0606;
     margin-top: 15px;
 }
-
-.bread_crumbs::before {
-    content: '';
-    position: absolute;
-    display: block;
-    background:url(../img/bread_crumbsvector.svg);
-    width: 8px;
-    height: 12px;
-    top: 7px;
-    left: 62px;
-}
-
-.bread_crumbs::after {
-    content: '';
-    position: absolute;
-    display: block;
-    background:url(../img/bread_crumbsvector.svg);
-    width: 8px;
-    height: 12px;
-    top: 7px;
-    left: 168px;
-}
-
-
 

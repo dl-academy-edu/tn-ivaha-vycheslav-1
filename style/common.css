@@ -268,8 +268,16 @@ fieldset {
 }
 
 .checkbox_input,
-.radio_input {
+.radio_input,
+.radio_box_input {
     display: none;
+}
+
+.radio_box_label {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    cursor: pointer;
 }
 
 
@@ -290,8 +298,9 @@ fieldset {
     display: block;
     width: 19px;
     height: 19px;
-    
+
 }
+
 
 .checkbox_label:before,
 .radio_label:before {
@@ -316,30 +325,29 @@ fieldset {
 }
 
 .checkbox_label:after {
-    background:url(../img/checkbox.svg) no-repeat center ;
+    background: url(../img/checkbox.svg) no-repeat center;
     top: -2px;
     left: 2px;
     opacity: 0;
 }
 
-.checkbox_input:checked + .checkbox_label:after {
+.checkbox_input:checked+.checkbox_label:after {
     opacity: 1;
 }
 
-.radio_input:checked + .radio_label::after {
+.radio_input:checked+.radio_label::after {
     opacity: 1;
 }
 
 .pages_wrapper {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 54px;
 
 }
 
 .pages_wrapper ul {
     display: flex;
     justify-content: space-between;
-    margin-left: -5px;
 }
 
 .pages_list a {
@@ -357,4 +365,15 @@ fieldset {
 .disabled {
     cursor: context-menu;
     opacity: .5;
+}
+
+.next_page::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    margin-left: 22px;
+    width: 8px;
+    height: 12px;
+    background: url(../img/bread_crumbsvector.svg) no-repeat center;
+    border: none;
 }
