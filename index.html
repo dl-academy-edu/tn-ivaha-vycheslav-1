@@ -7,8 +7,12 @@
     <title>Main page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@200;600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/common.css">
@@ -16,12 +20,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <a href="index.html">
             <img src="img/DLK.png" alt="">
         </a>
-        <nav>
-            <ul class="undotted uppercase">
+        <nav class="header_menu">
+            <ul class="header_list undotted uppercase">
                 <li>
                     <a href="blog.html">Blog</a>
                 </li>
@@ -33,17 +37,38 @@
                 </li>
             </ul>
         </nav>
-        <button><img src="img/magnifier.svg" alt=""></button>
-        <a href="contact.html">Contact Us</a>
+        <button class="border_none"><img src="img/magnifier.svg" alt=""></button>
+        <a href="contact.html" class="fat uppercase">Contact Us</a>
     </header>
 
-    <main>
+    <main class="container">
         <section class="banner">
+            <div class="banner_info">
+                <div class="banner_number">
+                    <h2>01</h2>
+                    <ul class="banner_button undotted">
+                        <li>
+                            <button></button>
+                        </li>
+                        <li>
+                            <button></button>
+                        </li>
+                        <li>
+                            <button></button>
+                        </li>
+                        <li>
+                            <button></button>
+                        </li>
+                    </ul>
+                </div>
+                <h1 class="banner_title uppercase">The ooh noo collection</h1>
+                <p class="crimson400italic">Designed in Slovenia</p>
+                <button class="button_primary banner_js">Explore now</button>
+            </div>
             <img src="img/monstr.png" alt="">
-            <h1 class="uppercase">The ooh noo collection</h1>
-            <p>Designed in Slovenia</p>
-            <button class="button_primary">Explore now</button>
-            <p class="down_banner uppercase">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            <div class="down_banner">
+                <p class="uppercase ">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            </div>
         </section>
 
         <section class="category_products">
@@ -56,44 +81,47 @@
                     <a href="#">Holiday shop</a>
                 </li>
                 <li>
-                    <a href="#">Toys</a>
+                    <a href="toys.html">Toys</a>
                 </li>
                 <li>
                     <a href="#">Accessories</a>
                 </li>
             </ul>
-            <div class="arrows">
-                <button class="vector_color"><img src="img/Vectorleft.svg" alt=""></button>
-                <button class="vector_color"><img src="img/Vectorright.svg" alt=""></button>
+            <div class="arrow_block">
+                <button class="arrow vector_color border_none"><img src="img/Vectorleft.svg" alt=""></button>
+                <button class="arrow vector_color border_none"><img src="img/Vectorright.svg" alt=""></button>
                 <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to
                     furniture for kids and adults.</p>
             </div>
         </section>
 
-        <section>
+        <section class="delivery_list">
             <img src="img/deliveryphoto.jpg" alt="">
-            <h3 class="uppercase">Delivery</h3>
-            <ul class="undotted">
-                <li>
-                    <button class="button">Delivery</button>
-                </li>
-                <li>
-                    <button>Guarantee</button>
-                </li>
-                <li>
-                    <button>Credit</button>
-                </li>
-            </ul>
-            <p>Some days i feel like i've been working on dlk my entire life and there are other days that
-                i am completely shocked that four years have flown by. It's simply magical.</p>
-            <p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy
-                place for me and i have you and all of the beautiful designers that we work with to thank!</p>
-            <a href="#" class="button_primary">Learn more</a>
+            <div class="delivery_colum">
+                <h3 class="delivery_title">Delivery</h3>
+                <ul class="delivery_button undotted">
+                    <li>
+                        <a class="crimson700italic">Delivery</a>
+                    </li>
+                    <li>
+                        <a class="crimson400italic border_none">Guarantee</a>
+                    </li>
+                    <li>
+                        <a class="crimson400italic border_none">Credit</a>
+                    </li>
+                </ul>
+                <p>Some days i feel like i've been working on dlk my entire life and there are other days that
+                    i am completely shocked that four years have flown by. It's simply magical.</p>
+                <p>What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly
+                    happy
+                    place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                <a href="#" class="button_primary">Learn more</a>
+            </div>
         </section>
 
-        <section class="awards">
-            <h2>Awards</h2>
-            <ul class="undotted">
+        <section>
+            <h2 class="hidden">Awards</h2>
+            <ul class="awards_list undotted">
                 <li>
                     <img src="img/logo1.png" alt="">
                 </li>
@@ -109,143 +137,173 @@
             </ul>
         </section>
 
-        <section>
+        <section class="info">
             <div class="about_us">
                 <h3 class="uppercase">Design Life Kids</h3>
-                <span>About Us</span>
+                <span class="crimson400italic">About Us</span>
                 <p>Some days i feel like i've been working on dlk my entire life and there are other days that
                     i am completely shocked that four years have flown by. It's simply magical. </p>
                 <a href="#" class="button_primary">buy now</a>
             </div>
             <div class="contacts">
-                <h3 class="uppercase">Contacts</h3>
-                <p>Some days i feel like i've been working on dlk my entire life and there are other days that
-                    i am completely shocked that four years have flown by. It's simply magical.</p>
-                <img src="img/map.jpg" alt="">
+                <div class="contacts_list">
+                    <h3 class="uppercase">Contacts</h3>
+                    <p>Some days i feel like i've been working on dlk my entire life and there are other days that
+                        i am completely shocked that four years have flown by. It's simply magical.</p>
+                </div>
+                <img src="img/map.jpg" alt="" class="map">
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="navigation">
-            <span class="section_footer">Navigation</span>
-            <ul class="undotted">
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Design Services</a>
-                </li>
-                <li>
-                    <a href="#">Featured On</a>
-                </li>
-                <li>
-                    <a href="#">2018 Holiday Catalog</a>
-                </li>
-                <li>
-                    <a href="#">Shop By Designer</a>
-                </li>
-            </ul>
+        <div class="footer_colum container">
+            <div class="navigation">
+                <span>Navigation</span>
+                <ul class="navigation_list undotted">
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Design Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Featured On</a>
+                    </li>
+                    <li>
+                        <a href="#">2018 Holiday Catalog</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop By Designer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="information">
+                <span>Customer Information</span>
+                <ul class="information_list undotted">
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Sale Exclusions</a>
+                    </li>
+                    <li>
+                        <a href="#">Shipping & Returns</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Search</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="connect">
+                <span>Connect</span>
+                <form class="form_email">
+                    <input type="email" id="Email_input" placeholder="Email">
+                    <button type="submit" class="button_primary">Join</button>
+                </form>
+                <ul class="social undotted">
+                    <li>
+                        <a href="#">
+                            <img src="img/Facebook.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/Twitter.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/Pinterest.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/Instagram.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div class="information">
-            <span class="section_footer">Customer Information</span>
-            <ul class="undotted">
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Sale Exclusions</a>
-                </li>
-                <li>
-                    <a href="#">Shipping & Returns</a>
-                </li>
-                <li>
-                    <a href="#">Terms & Conditions</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Search</a>
-                </li>
-            </ul>
+        <div class="footer_company container">
+            <div class="rating">
+                <a href="#">Company Rating</a>
+                <ul class="star undotted">
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2018 Dlk • Design Life Kids</p>
+            </div>
+            <div class="web">
+                <a href="#">Web Design — Direct Line Development</a>
+            </div>
         </div>
 
-        <div class="connect">
-            <span class="section_footer">Connect</span>
-            <form>
-                <label for="Email_input">Email</label>
-                <input type="email" id="Email_input">
-                <button type="submit" class="button_primary">Join</button>
-            </form>
-            <ul class="undotted">
-                <li>
-                    <a href="#">
-                        <img src="img/Facebook.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/Twitter.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/Pinterest.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/Instagram.svg" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="rating">
-            <a href="#">Company Rating</a>
-        </div>
-        <div class="finish">
-            <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            <a href="#" class="section_footer">Web Design — Direct Line Development</a>
-        </div>
     </footer>
 
-    <section>
-        <h2>Modal Block</h2>
-        <form action="#">
-            <div>
+    <section class="popup">
+        <h2 class="hidden">Modal Block</h2>
+        <form action="#" class="form_contact">
+            <div class="label_wrapper">
                 <label for="input_name">Name</label>
-                <input type="text" id="input_name">
+                <input type="text" id="input_name" placeholder="Ivan Ivanov">
             </div>
-            <div>
-                <div>
+            <div class="field_2_colum">
+                <div class="label_wrapper">
                     <label for="input_phone">Phone</label>
                     <input type="text" id="input_phone">
                 </div>
-                <div>
+                <div class="label_wrapper">
                     <label for="input_email">Email</label>
                     <input type="email" id="input_email">
                 </div>
             </div>
-            <div>
+            <div class="label_wrapper">
                 <label for="input_massage">Message</label>
                 <textarea id="input_massage" cols="30" rows="10"></textarea>
             </div>
 
             <fieldset>
-                <input type="checkbox" id="input_personaldata">
-                <label for="input_personaldata">By clicking on the button, you consent to the processing of your
+                <input type="checkbox" id="input_personaldata" class="checkbox_input">
+                <label for="input_personaldata" class="checkbox_label">By clicking on the button, you consent to the
+                    processing of your
                     personal data</label>
             </fieldset>
 
             <button type="submit" class="button_primary">Submit</button>
+
+            <button class="popup_close"><img src="img/close_white.svg" alt=""></button>
         </form>
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

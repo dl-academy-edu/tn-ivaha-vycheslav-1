@@ -7,20 +7,23 @@
     <title>Catalog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@200;600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/catalog.css">
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <a href="index.html">
             <img src="img/DLK.png" alt="">
         </a>
-        <nav>
-            <ul class="undotted uppercase">
+        <nav class="header_menu">
+            <ul class="header_list undotted uppercase">
                 <li>
                     <a href="blog.html">Blog</a>
                 </li>
@@ -32,133 +35,165 @@
                 </li>
             </ul>
         </nav>
-        <button><img src="img/magnifier.svg" alt=""></button>
-        <a href="contact.html">Contact Us</a>
+        <button class="border_none"><img src="img/magnifier.svg" alt=""></button>
+        <a href="contact.html" class="fat uppercase">Contact Us</a>
     </header>
 
-    <section>
-        <h1 class="uppercase">Category Products</h1>
-        <a href="index.html">Home</a>
-        <a href="#">Catalog</a>
-        <ul class="undotted uppercase">
-            <li>
-                <a href="#">Apparel kids</a>
-            </li>
-            <li>
-                <a href="#">Holiday shop</a>
-            </li>
-            <li>
-                <a href="toys.html">Toys</a>
-            </li>
-            <li>
-                <a href="#">Accessories</a>
-            </li>
-            <li>
-                <a href="#">Sale</a>
-            </li>
-            <li>
-                <a href="#">Apparel adults</a>
-            </li>
-        </ul>
-        <div>
-            <h2 class="uppercase">Product Description</h2>
-            <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can
-                even bathe her, just like a little sister.</p>
-            <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be
-                an excellent choice for a gift for a girl from 4 years old.</p>
-            <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of
-                hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young
-                mistress.</p>
-        </div>
-    </section>
+    <main class="container">
+        <section>
+            <h1 class="catalog_title">Category Products</h1>
+            <div class="bread_crumbs">
+                <a href="index.html" class="next_page">Home</a>
+                <a href="#" class="disabled">Catalog</a>
+            </div>
+            <div class="catalog">
+                <ul class="catalog_list undotted uppercase">
+                    <li>
+                        <a href="#">Apparel kids</a>
+                    </li>
+                    <li>
+                        <a href="#">Holiday shop</a>
+                    </li>
+                    <li>
+                        <a href="toys.html">Toys</a>
+                    </li>
+                    <li>
+                        <a href="#">Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">Sale</a>
+                    </li>
+                    <li>
+                        <a href="#">Apparel adults</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="product">
+                <h2 class="product_title">Product Description</h2>
+                <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You
+                    can
+                    even bathe her, just like a little sister.</p>
+                <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll
+                    will be
+                    an excellent choice for a gift for a girl from 4 years old.</p>
+                <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of
+                    hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her
+                    young
+                    mistress.</p>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
-        <div class="navigation">
-            <span class="section_footer">Navigation</span>
-            <ul class="undotted">
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Design Services</a>
-                </li>
-                <li>
-                    <a href="#">Featured On</a>
-                </li>
-                <li>
-                    <a href="#">2018 Holiday Catalog</a>
-                </li>
-                <li>
-                    <a href="#">Shop By Designer</a>
-                </li>
-            </ul>
+        <div class="footer_colum container">
+            <div class="navigation">
+                <span>Navigation</span>
+                <ul class="navigation_list undotted">
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Design Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Featured On</a>
+                    </li>
+                    <li>
+                        <a href="#">2018 Holiday Catalog</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop By Designer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="information">
+                <span>Customer Information</span>
+                <ul class="information_list undotted">
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Sale Exclusions</a>
+                    </li>
+                    <li>
+                        <a href="#">Shipping & Returns</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Search</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="connect">
+                <span>Connect</span>
+                <form class="form_email">
+                    <input type="email" id="Email_input" placeholder="Email">
+                    <button type="submit" class="button_primary">Join</button>
+                </form>
+                <ul class="social undotted">
+                    <li>
+                        <a href="#">
+                            <img src="img/Facebook.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/Twitter.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/Pinterest.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/Instagram.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div class="information">
-            <span class="section_footer">Customer Information</span>
-            <ul class="undotted">
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Sale Exclusions</a>
-                </li>
-                <li>
-                    <a href="#">Shipping & Returns</a>
-                </li>
-                <li>
-                    <a href="#">Terms & Conditions</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Search</a>
-                </li>
-            </ul>
+        <div class="footer_company container">
+            <div class="rating">
+                <a href="#">Company Rating</a>
+                <ul class="star undotted">
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Star.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2018 Dlk • Design Life Kids</p>
+            </div>
+            <div class="web">
+                <a href="#">Web Design — Direct Line Development</a>
+            </div>
         </div>
 
-        <div class="connect">
-            <span class="section_footer">Connect</span>
-            <form>
-                <label for="Email_input">Email</label>
-                <input type="email" id="Email_input">
-                <button type="submit" class="button_primary">Join</button>
-            </form>
-            <ul class="undotted">
-                <li>
-                    <a href="#">
-                        <img src="img/Facebook.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/Twitter.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/Pinterest.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="img/Instagram.svg" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="rating">
-            <a href="#">Company Rating</a>
-        </div>
-        <div class="finish">
-            <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            <a href="#" class="section_footer">Web Design — Direct Line Development</a>
-        </div>
     </footer>
 </body>
 

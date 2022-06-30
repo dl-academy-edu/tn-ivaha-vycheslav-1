@@ -1,39 +1,355 @@
 .category_list li:nth-child(1) {
-    background: #DBE4DB;
+    background: url(../img/category1.jpg);
+    width: 280px;
+    height: 270px;
 }
 
 .category_list li:nth-child(2) {
-    background: #EADDD3;
+    background: url(../img/category2.png) no-repeat center #EADDD3;
+    width: 280px;
+    height: 270px;
 }
 
 .category_list li:nth-child(3) {
-    background: #F8F2DA;
+    background: url(../img/category3.png) no-repeat center #F8F2DA;
+    width: 280px;
+    height: 270px;
 }
 
 .category_list li:nth-child(4) {
-    background: #D5D4E1;
+    background: url(../img/category4.png) no-repeat center #D5D4E1;
+    width: 280px;
+    height: 270px;
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.banner_info {
+    background: #EEE4DB;
+    padding: 27px 135px 98px;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner_info p {
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    width: 60%;
+    margin-top: 65px;
+    letter-spacing: 2px;
+}
+
+.banner_number {
+    position: absolute;
+    margin: 17px -105px;
+}
+
+.banner_button li {
+    margin: 20px 1px -28px;
+}
+
+.banner_number h2 {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 60px;
+    color: rgba(30, 6, 6, 0.05);
+    margin: 0;
+}
+
+.banner_number button {
+    width: 31px;
+    height: 3px;
+    background: #D6CAC2;
+    border:none;
+    cursor: pointer;
+}
+
+
+.banner img {
+    position: absolute;
+    right: 96px;
+    top: 7px;
+}
+
+
+.down_banner {
+    background: #C29974;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: -9px;
 }
 
 .button {
     background: #70BBDC33;
+    display: inline-block;
+}
+
+.delivery_colum a {
+    width: 149px;
+}
+
+
+.border_none {
+    border: none;
 }
 
 .about_us {
     background: #E1F0F7;
+    width: 543px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 105px;
+}
+
+.about_us h3 {
+    margin-top: -5px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 5px;
+    text-transform: uppercase;
+    color: #1E0606;
+    font-family: 'Montserrat';
+}
+
+.about_us a {
+    margin-left: 33px;
+    margin-top: 7px;
+}
+
+.about_us p {
+    width: 89%;
+    margin-left: 33px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+
+.about_us span {
+    margin-left: 34px;
+    margin-top: -6px;
 }
 
 .contacts {
+    width: 543px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-right: 33px;
+}
+
+.contacts_list {
     background: #E1F0F7;
+    margin-bottom: -70px;
 }
 
-.banner {
-    background: #EEE4DB;
+.contacts h3 {
+    margin-top: -25px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
 }
 
-.banner .down_banner {
-    background: #C29974;
+.contacts p {
+    width: 89%;
+    margin-left: 30px;
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+
+
+.category_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.category_list a {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 115px;
+    margin-left: 45px;
+    width: 65%;
+    flex-direction: column;
+}
+
+
+.category_products h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 .vector_color {
     background: #70BBDC33;
+    margin: 0px 5px 0 0;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.delivery_list {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -20px;
+}
+
+.delivery_colum {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    margin-left: 120px;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.delivery_button li {
+    margin: 6px 5px 25px;
+}
+
+.delivery_colum::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 326px;
+    height: 55px;
+    background: #70BBDC33;
+    top: 77px;
+    left: -60px;
+
+}
+
+.delivery_colum p {
+    width: 90%;
+    margin-top: 13px;
+    margin-bottom: -3px;
+}
+
+.delivery_colum .button_primary {
+    margin-top: 35px;
+}
+
+.delivery_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin: 30px 0 13px;
+}
+
+
+.awards_list {
+    display: flex;
+    margin-top: 91px;
+    margin-bottom: 116px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.arrow_block {
+    display: flex;
+    margin-bottom: 94px;
+    margin-top: 15px;
+    align-items: center
+}
+
+.arrow_block p {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.map {
+    margin-left: 30px;
+}
+
+
+.fat {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.footer {
+    margin-top: 50px
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(125, 151, 218, 0.8);
+    display: none;
+}
+
+.popup_open {
+    display: flex;
+}
+
+.popup_close {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    cursor: pointer;
+}
+
+.form_contact {
+    width: 680px;
+    background: #E5EAF8;
+    padding: 42px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
