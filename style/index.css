@@ -58,8 +58,14 @@
 }
 
 .banner_button li {
-    margin: 20px 1px -28px;
+    margin-top: 20px;
+    margin-bottom: -25px;
 }
+
+.banner_button button:hover {
+    background: #725F5B;
+}
+
 
 .banner_number h2 {
     font-family: 'Montserrat';
@@ -183,8 +189,6 @@
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    flex-wrap: wrap;
-    align-content: flex-start;
 }
 
 .category_list a {
@@ -200,6 +204,10 @@
     margin-left: 45px;
     width: 65%;
     flex-direction: column;
+}
+
+.category_list a:hover {
+    text-decoration: underline;
 }
 
 
@@ -236,6 +244,10 @@
     margin-top: -20px;
 }
 
+.delivery_list img {
+    background: rgba(112, 187, 220, 0.2);
+}
+
 .delivery_colum {
     display: flex;
     flex-direction: column;
@@ -256,7 +268,7 @@
     width: 326px;
     height: 55px;
     background: #70BBDC33;
-    top: 77px;
+    top: 84px;
     left: -60px;
 
 }
@@ -308,6 +320,7 @@
 
 .map {
     margin-left: 30px;
+    background: #EBEBEB;
 }
 
 
@@ -342,6 +355,14 @@
     top: 0;
     right: -30px;
     cursor: pointer;
+}
+
+.popup_close img:hover {
+    opacity: .6;
+}
+
+.popup_close img:active {
+    opacity: .3;
 }
 
 .form_contact {

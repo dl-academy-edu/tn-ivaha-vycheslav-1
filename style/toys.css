@@ -37,11 +37,21 @@
     margin-right: 210px;
 }
 
+.toys_color {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
 .toys_delivery {
     margin-left: 60px;
     margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
 
 .color_list li {
     margin-bottom: 15px;
@@ -72,6 +82,45 @@
     margin: 0 -10px;
 }
 
+.products_group {
+    position: relative;
+}
+
+
+.products_group a::after {
+    position: absolute;
+    content: 'LEARN MORE';
+    width: 207px;
+    height: 207px;
+    background: #E5EAF8;
+    top: 90px;
+    left: 85px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    color: #1E0606;
+    display: none;
+}
+
+.products_group a:hover::after {
+    opacity: 0.9;
+    display: flex;
+}
+
+.products_group a:active::after {
+    display: flex;
+    background: #E5EAF899;
+}
+
+.products_list img {
+    background: #FFFFFF;
+}
+
+
 .products_list li {
     margin-right: 20px;
     margin-bottom: 22px;
@@ -98,4 +147,3 @@
     color: #1E0606;
     margin-top: 15px;
 }
-

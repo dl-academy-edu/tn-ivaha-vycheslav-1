@@ -125,44 +125,44 @@
         <section class="container popular_products">
             <h2 class="hidden">Popular Products</h2>
             <ul class="products_list undotted">
-                <li>
+                <li class="products_group">
                     <a href="#">
-                        <img src="img/for_kids/shark.png" alt="">
+                        <img src="img/for_kids/shark.png" alt="" width="380" height="385">
                         <span>Sharky bean bag chair cover</span>
                         <span class="price">$60.00 USD</span>
                     </a>
                 </li>
-                <li>
+                <li class="products_group">
                     <a href="#">
-                        <img src="img/for_kids/brass.png" alt="">
+                        <img src="img/for_kids/brass.png" alt="" width="380" height="385">
                         <span>Brass deco frames</span>
                         <span class="price">$66.00 USD</span>
                     </a>
                 </li>
-                <li>
+                <li class="products_group">
                     <a href="#">
-                        <img src="img/for_kids/apron.png" alt="">
+                        <img src="img/for_kids/apron.png" alt="" width="380" height="385">
                         <span>Cibo full apron</span>
                         <span class="price">$60.00 USD</span>
                     </a>
                 </li>
-                <li>
+                <li class="products_group">
                     <a href="#">
-                        <img src="img/for_kids/gumballmachine.png" alt="">
+                        <img src="img/for_kids/gumballmachine.png" alt="" width="380" height="385">
                         <span>Gatcha Gatcha gumball machine</span>
                         <span class="price">$56.00 USD</span>
                     </a>
                 </li>
-                <li>
+                <li class="products_group">
                     <a href="#">
-                        <img src="img/for_kids/candle.png" alt="">
+                        <img src="img/for_kids/candle.png" alt="" width="380" height="385">
                         <span>Christmas advent scented candle</span>
                         <span class="price">$29.00 USD</span>
                     </a>
                 </li>
-                <li>
+                <li class="products_group">
                     <a href="#">
-                        <img src="img/for_kids/spinninglight.png" alt="">
+                        <img src="img/for_kids/spinninglight.png" alt="" width="380" height="385">
                         <span>Tangle spinning tea light</span>
                         <span class="price">$56.00 USD</span>
                     </a>
@@ -172,30 +172,24 @@
     </main>
 
     <div class="pages_wrapper container">
-        <ul class="undotted">
-            <li>
-                <a href="#"><img src="img/Vectorleft.svg" alt=""></a>
-            </li>
-            <div class="pages">
-                <ul class="pages_list undotted">
-                    <li>
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                </ul>
-            </div>
-            <li>
-                <a href="#"><img src="img/Vectorright.svg" alt=""></a>
-            </li>
-        </ul>
+        <a href="#" class="pagination_vector_left"></a>
+        <div class="pages">
+            <ul class="pages_list undotted">
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="pagination_vector_right"></a>
     </div>
 
     <footer class="footer">
@@ -207,7 +201,7 @@
                         <a href="#">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="blog.html">Blog</a>
                     </li>
                     <li>
                         <a href="#">Design Services</a>
@@ -228,7 +222,7 @@
                 <span>Customer Information</span>
                 <ul class="information_list undotted">
                     <li>
-                        <a href="#">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                     <li>
                         <a href="#">Sale Exclusions</a>
@@ -284,28 +278,29 @@
                 <a href="#">Company Rating</a>
                 <ul class="star undotted">
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="5_star" name="star" class="radio_star_input" value="5">
+                        <label for="5_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="4_star" name="star" class="radio_star_input" value="4">
+                        <label for="4_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="3_star" name="star" class="radio_star_input" value="3">
+                        <label for="3_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="2_star" name="star" class="radio_star_input" value="2">
+                        <label for="2_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="1_star" name="star" class="radio_star_input" value="1">
+                        <label for="1_star" class="radio_star_label"></label>
                     </li>
                 </ul>
             </div>
-            <div class="copyright">
-                <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            </div>
-            <div class="web">
-                <a href="#">Web Design — Direct Line Development</a>
-            </div>
+            <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
+            <a href="#" class="web">Web Design — Direct Line Development</a>
         </div>
 
     </footer>
