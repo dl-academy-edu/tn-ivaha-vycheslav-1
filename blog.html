@@ -51,7 +51,7 @@
                 <ul class="blog_list undotted">
                     <li>
                         <a href="#">
-                            <img src="img/blog/blog1.jpg" alt="">
+                            <img src="img/blog/blog1.jpg" alt="" width="380" height="220">
                             <p>23rd August 2018</p>
                             <h2>Top 5 fastest growing it service companies in philly</h2>
                             <span>Direct Line Development’s Team is excited to announce that we received UpCity’s 2019
@@ -62,7 +62,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/blog/blog2.jpg" alt="">
+                            <img src="img/blog/blog2.jpg" alt="" width="380" height="220">
                             <p>23rd August 2018</p>
                             <h2>Best financial</h2>
                             <span>Direct Line Development is honored to be recognized as one of the Top 100 Fastest
@@ -72,7 +72,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/blog/blog3.jpg" alt="">
+                            <img src="img/blog/blog3.jpg" alt="" width="380" height="220">
                             <p>23rd August 2018</p>
                             <h2>Company logo or brand identity: which one is more important? brand identity</h2>
                             <span>To survive in the world of digital marketing, you need to keep up with the latest SEO
@@ -81,7 +81,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/blog/blog4.jpg" alt="">
+                            <img src="img/blog/blog4.jpg" alt="" width="380" height="220">
                             <p>23rd August 2018</p>
                             <h2>Best financial</h2>
                             <span>Direct Line Development is honored to be recognized as one of the Top 100 Fastest
@@ -91,7 +91,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/blog/blog5.jpg" alt="">
+                            <img src="img/blog/blog5.jpg" alt="" width="380" height="220">
                             <p>23rd August 2018</p>
                             <h2>Company logo or brand identity: which one is more important? brand identity</h2>
                             <span>To survive in the world of digital marketing, you need to keep up with the latest SEO
@@ -100,7 +100,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/blog/blog6.jpg" alt="">
+                            <img src="img/blog/blog6.jpg" alt="" width="380" height="220">
                             <p>23rd August 2018</p>
                             <h2>Top 5 fastest growing it service companies in philly</h2>
                             <span>Direct Line Development’s Team is excited to announce that we received UpCity’s 2019
@@ -115,30 +115,24 @@
     </main>
 
     <div class="pages_wrapper container">
-        <ul class="undotted">
-            <li>
-                <a href="#"><img src="img/Vectorleft.svg" alt=""></a>
-            </li>
-            <div class="pages">
-                <ul class="pages_list undotted">
-                    <li>
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                </ul>
-            </div>
-            <li>
-                <a href="#"><img src="img/Vectorright.svg" alt=""></a>
-            </li>
-        </ul>
+        <a href="#" class="pagination_vector_left"></a>
+        <div class="pages">
+            <ul class="pages_list undotted">
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="pagination_vector_right"></a>
     </div>
 
     <footer class="footer">
@@ -150,7 +144,7 @@
                         <a href="#">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="blog.html">Blog</a>
                     </li>
                     <li>
                         <a href="#">Design Services</a>
@@ -171,7 +165,7 @@
                 <span>Customer Information</span>
                 <ul class="information_list undotted">
                     <li>
-                        <a href="#">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                     <li>
                         <a href="#">Sale Exclusions</a>
@@ -227,28 +221,29 @@
                 <a href="#">Company Rating</a>
                 <ul class="star undotted">
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="5_star" name="star" class="radio_star_input" value="5">
+                        <label for="5_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="4_star" name="star" class="radio_star_input" value="4">
+                        <label for="4_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="3_star" name="star" class="radio_star_input" value="3">
+                        <label for="3_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="2_star" name="star" class="radio_star_input" value="2">
+                        <label for="2_star" class="radio_star_label"></label>
                     </li>
                     <li>
-                        <img src="img/Star.svg" alt="">
+                        <input type="radio" id="1_star" name="star" class="radio_star_input" value="1">
+                        <label for="1_star" class="radio_star_label"></label>
                     </li>
                 </ul>
             </div>
-            <div class="copyright">
-                <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            </div>
-            <div class="web">
-                <a href="#">Web Design — Direct Line Development</a>
-            </div>
+            <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
+            <a href="#" class="web">Web Design — Direct Line Development</a>
         </div>
 
     </footer>

@@ -17,6 +17,10 @@
     flex-wrap: wrap;
 }
 
+.blog_list img {
+    background: rgba(112, 187, 220, 0.2);
+}
+
 .blog_list li {
     margin-right: 20px;
     width: 380px;
@@ -34,6 +38,14 @@
     line-height: 31px;
     color: #1E0606;
     margin-top: -5px;
+}
+
+.blog_list h2:hover {
+    text-decoration: underline;
+}
+
+.blog_list h2:active {
+    text-decoration: underline;
 }
 
 
