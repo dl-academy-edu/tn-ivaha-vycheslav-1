@@ -40,12 +40,9 @@
     margin-top: -5px;
 }
 
-.blog_list h2:hover {
-    text-decoration: underline;
-}
-
+.blog_list h2:hover,
 .blog_list h2:active {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 
